@@ -69,7 +69,6 @@ public class ClientHandler implements Runnable {
                 out.println("Enter the Type of Message, Broadcast OR PrivateMessage or 'exit' to exit :");
             }
 
-
             clients.remove(username);
             System.out.println("User " + username + " disconnected...");
             server.notifyAllClients("User " + username + " left...");

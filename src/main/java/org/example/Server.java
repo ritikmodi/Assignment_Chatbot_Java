@@ -8,7 +8,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 //import org.example.Client.*;
 
-
 public class Server {
     private static final int port = 1234;
     private static ConcurrentHashMap<String, ClientHandler> clients = new ConcurrentHashMap<>();
